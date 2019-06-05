@@ -20,6 +20,7 @@ app.get("/", (req, res) => {
 });
 
 app.use("/products", require("./routes/products.route"));
+app.use("/categories", require("./routes/categories.route"));
 
 app.use((req, res, next) => {
   res.render("404", { layout: false });
