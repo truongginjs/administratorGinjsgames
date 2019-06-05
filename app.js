@@ -38,3 +38,7 @@ app.use((error, req, res, next) => {
 //     "chạy ngay đi trước khi mọi điều tồi tệ hơn http://localhost:3000"
 //   );
 // });
+
+http.listen(process.env.PORT || 3000, function(){
+  console.log('listening on', http.address().port);
+});
