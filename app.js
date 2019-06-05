@@ -20,8 +20,11 @@ app.get("/", (req, res) => {
 });
 
 app.use("/products", require("./routes/products.route"));
+<<<<<<< HEAD
 app.use("/categories", require("./routes/categories.route"));
 app.use("/user", require("./routes/user.route"));
+=======
+>>>>>>> parent of acb69ad... sua tum lum
 
 app.use((req, res, next) => {
   res.render("404", { layout: false });
