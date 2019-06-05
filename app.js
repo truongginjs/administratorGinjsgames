@@ -33,8 +33,8 @@ app.use((error, req, res, next) => {
   });
 });
 
-app.listen(3000, () => {
-  console.log(
-    "chạy ngay đi trước khi mọi điều tồi tệ hơn http://localhost:3000"
-  );
-});
+// app.listen(3000, () => {
+//   console.log(
+//     "chạy ngay đi trước khi mọi điều tồi tệ hơn http://localhost:3000"
+//   );
+// });
