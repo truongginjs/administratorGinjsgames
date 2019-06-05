@@ -21,8 +21,11 @@ app.get("/", (req, res) => {
 
 app.use("/products", require("./routes/products.route"));
 <<<<<<< HEAD
+<<<<<<< HEAD
 app.use("/categories", require("./routes/categories.route"));
 app.use("/user", require("./routes/user.route"));
+=======
+>>>>>>> parent of acb69ad... sua tum lum
 =======
 >>>>>>> parent of acb69ad... sua tum lum
 
